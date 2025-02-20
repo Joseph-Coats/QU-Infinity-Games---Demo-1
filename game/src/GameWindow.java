@@ -13,7 +13,7 @@ import java.awt.GridLayout;
 
 import javax.swing.JFrame;
 
-public class LevelEditorWindow 
+public class GameWindow 
 extends JFrame
 {
 
@@ -21,7 +21,7 @@ extends JFrame
 	 * This constructor creates the window frame using the given
 	 * name provided in the below main method.
 	 **************************************************************/	
-	public LevelEditorWindow(String name)
+	public GameWindow(String name)
 	{
 		super(name);
 		
@@ -33,12 +33,12 @@ extends JFrame
 	
 	public static void main(String[] args)
 	{
-		LevelEditorWindow window = new LevelEditorWindow("Pong Example");
+		GameWindow window = new GameWindow("Pong Example");
 		
 		Container contentPane = window.getContentPane();
 		contentPane.setLayout(new GridLayout(1, 1));
 		
-		LevelEditor edit = new LevelEditor(window.getSize());
+		ExampleGame edit = new ExampleGame(window.getSize());
 		contentPane.add(edit);
 		window.setVisible(true);
 	}
