@@ -1,4 +1,4 @@
-This is a demo of my rendition of Atari Pong.
+This is a demo of my rendition of Atari Pong. The program was developed using Eclipse IDE.
 
 Controls (If AI is disabled for either):
 
