@@ -34,7 +34,7 @@ extends Canvas
 implements KeyListener, Runnable
 {
 	//These booleans toggle extra modes!
-	private boolean AIopponent = true, AIplayer = true, fastBall = false;
+	private boolean AIopponent = true, AIplayer = false, fastBall = false;
 	
 	private Graphics bufferGraphics = null;
 	private BufferStrategy bufferStrategy = null;
