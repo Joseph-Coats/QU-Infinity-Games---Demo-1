@@ -29,7 +29,7 @@ import javax.imageio.ImageIO;
 
 
 
-public class LevelEditor 
+public class ExampleGame 
 extends Canvas
 implements KeyListener, Runnable
 {
@@ -63,7 +63,7 @@ implements KeyListener, Runnable
 	 * This constructor and paint method initialize the program 
 	 * and its buffers.
 	 **************************************************************/	
-	public LevelEditor(Dimension size)
+	public ExampleGame(Dimension size)
 	{
 		this.setPreferredSize(size);
 		this.addKeyListener(this);
