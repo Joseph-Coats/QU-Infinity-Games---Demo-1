@@ -7,3 +7,6 @@ Left Paddle - s key/w key.
 Right Paddle - down arrow/up arrow.
 
 Spacebar will pause the game.
+
+Installation:
+The game uses default project settings and use the "File Setup" image as a guide to appropriately place rescources.
